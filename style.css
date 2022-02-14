@@ -16,6 +16,12 @@
     font-family: 'Segoe UI', 'Ubuntu';
 }
 
+.navbar .logo a {
+    color: aliceblue;
+    font-size: 35px;
+    font-weight: 600;
+}
+
 .navbar .menu li a {
     color: aliceblue;
 }
