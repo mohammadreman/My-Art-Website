@@ -10,5 +10,11 @@
 /* navbar styling */
 
 .navbar {
+    position: fixed;
+    width: 100%;
     background: #333;
+}
+
+.navbar .menu li a {
+    color: aliceblue;
 }
