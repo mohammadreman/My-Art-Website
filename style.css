@@ -12,8 +12,21 @@
 .navbar {
     position: fixed;
     width: 100%;
+    padding: 15px 0;
     background: #333333;
     font-family: 'Segoe UI', 'Ubuntu';
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .navbar .logo a {
@@ -22,10 +35,19 @@
     font-weight: 600;
 }
 
-.navbar .menu li a {
-    color: aliceblue;
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
 }
 
-.navbar .menu-btn i {
+.navbar .menu li a {
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+.menu-btn {
+    font-size: 18px;
     color: goldenrod;
 }
